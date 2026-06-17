@@ -1,0 +1,14 @@
+{
+  "name": "sovereign.meok.ai",
+  "title": "Sovereign MEOK — Self-Sovereign Identity",
+  "description": "Self-sovereign identity and autonomous agent infrastructure for the MEOK empire and its member entities.",
+  "cluster": "DEVELOPER",
+  "servers": [
+        { "id": "sso-mcp.sov3.meok.ai", "url": "https://sso-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "agent-mcp.sov3.meok.ai", "url": "https://agent-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "did-mcp.sov3.meok.ai", "url": "https://did-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" }
+  ],
+  "registrar": "https://mcp-registry.sov3.meok.ai/register",
+  "protocol": "https://openMCP.ai/protocol",
+  "$schema": "https://openMCP.ai/schemas/mcp-server-list.json"
+}
